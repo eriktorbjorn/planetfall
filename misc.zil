@@ -439,7 +439,7 @@ Class Blather, the bane of your shipboard existence, could appear." CR CR>)>
 	 <PUT <SET CINT <INT .RTN>> ,C-TICK .TICK>
 	 .CINT>
 
-<ROUTINE INT (RTN "OPTIONAL" (DEMON <>) E C INT)
+<ROUTINE INT (RTN "OPTIONAL" (DEMON <>) "AUX" E C INT)
 	 <SET E <REST ,C-TABLE ,C-TABLELEN>>
 	 <SET C <REST ,C-TABLE ,C-INTS>>
 	 <REPEAT ()
