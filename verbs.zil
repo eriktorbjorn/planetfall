@@ -857,7 +857,7 @@ looking up at you." CR CR>)>
 		<TELL D ,PRSO "." CR>)>
 	 <RFATAL>>
 
-<ROUTINE V-BOARD ("AUX" AV)
+<ROUTINE V-BOARD ()
 	 <TELL "You are now in the " D ,PRSO "." CR>
 	 <MOVE ,ADVENTURER ,PRSO>
 	 <APPLY <GETP ,PRSO ,P?ACTION> ,M-ENTER>
@@ -1299,7 +1299,7 @@ Hint Booklet using the order form in your game package." CR>>
 		<PERFORM ,V?CLIMB-ON ,PRSO>
 		<RTRUE>)>>
 
-<ROUTINE V-CLIMB-UP ("OPTIONAL" (DIR ,P?UP) (OBJ <>) "AUX" X)
+<ROUTINE V-CLIMB-UP ("OPTIONAL" (DIR ,P?UP) (OBJ <>))
 	 <COND (<GETPT ,HERE .DIR>
 		<DO-WALK .DIR>
 		<RTRUE>)

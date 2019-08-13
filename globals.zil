@@ -372,7 +372,7 @@ gotten 300 demerits." CR>)
 <ROUTINE IS-CLOSED ()
 	 <TELL "It is closed!" CR>>
 
-<ROUTINE V-THROUGH ("OPTIONAL" (OBJ <>) "AUX" M)
+<ROUTINE V-THROUGH ("OPTIONAL" (OBJ <>))
 	<COND (<AND <NOT .OBJ> <FSET? ,PRSO ,VEHBIT>>
 	       <PERFORM ,V?BOARD ,PRSO>
 	       <RTRUE>)
@@ -439,7 +439,7 @@ gotten 300 demerits." CR>)
 		<TELL " here!\"" CR>)>
 	 <RTRUE>>
 
-<ROUTINE FIND-NOT-HERE (TBL PRSO? "AUX" M-F OBJ)
+<ROUTINE FIND-NOT-HERE (TBL PRSO? "AUX" M-F)
 	;"Protocol: return T if case was handled and msg TELLed,
 	    ,NOT-HERE-OBJECT if 'can't see' msg TELLed,
 			  <> if PRSO/PRSI ready to use"

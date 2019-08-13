@@ -479,5 +479,5 @@ Class Blather, the bane of your shipboard existence, could appear." CR CR>)>
 					     <SET FLG T>)>)>)>)>
 		 <SET C <REST .C ,C-INTLEN>>>>
 
-<ROUTINE NULL-F ("OPTIONAL" A1 A2)
+<ROUTINE NULL-F ()
 	<RFALSE>>
